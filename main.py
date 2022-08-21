@@ -63,10 +63,12 @@ if __name__ == '__main__':
         file.write(f"Maksimum kişinin kaldığı ev: {addressWithMaxPeople}")
         file.write("\n")
 
+    """
     with open("out.txt", "a") as file:
         file.write("\n")
         file.write("PEOPLE")
         file.write("\n")
+    """
     for i in reversed(range(maxPeople + 1)):
         if i in addressesWithNPeople.keys():
             if i > 1:
